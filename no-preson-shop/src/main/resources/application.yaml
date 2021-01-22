@@ -1,0 +1,33 @@
+server:
+  port: 443
+  ssl:
+    key-store: classpath:5097730_www.liboy.xyz.pfx
+    key-store-password: vrahbSoJ
+    keyStoreType: PKCS12
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://182.92.168.185:3306/no_preson_shop?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+  redis:
+    port: 6379
+    client-name: cqyt
+    host: 182.92.168.185
+    password: lijun123
+  thymeleaf:
+    cache: false
+    suffix: .html
+    mode: HTML
+    prefix: classpath:/templates/
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.cqyt.dao
+logging:
+  level:
+    root: info			#日志的级别
+  file:
+    path: log		#日志存放的位置

@@ -1,0 +1,551 @@
+2021-01-21 16:23:30.464  INFO 5336 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 5336 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 16:23:30.467  INFO 5336 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 16:23:31.399  INFO 5336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:23:31.399  INFO 5336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 16:23:31.416  INFO 5336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JDBC repository interfaces.
+2021-01-21 16:23:31.429  INFO 5336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:23:31.430  INFO 5336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 16:23:31.442  INFO 5336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 16:23:31.540  WARN 5336 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 16:23:31.715  INFO 5336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$28dcc4d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 16:23:31.760  INFO 5336 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 16:23:32.009  INFO 5336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 16:23:32.019  INFO 5336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 16:23:32.019  INFO 5336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 16:23:32.162  INFO 5336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 16:23:32.162  INFO 5336 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1645 ms
+2021-01-21 16:23:32.697  INFO 5336 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 16:23:32.835  INFO 5336 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 16:23:33.583  WARN 5336 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 16:23:33.828  INFO 5336 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 16:23:33.841  INFO 5336 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 16:23:33.863  INFO 5336 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 16:23:34.376  INFO 5336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 16:23:34.380  INFO 5336 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 4.447 seconds (JVM running for 6.642)
+2021-01-21 16:24:32.586  INFO 5336 --- [https-jsse-nio-443-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 16:24:32.588  INFO 5336 --- [https-jsse-nio-443-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 16:24:32.594  INFO 5336 --- [https-jsse-nio-443-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-01-21 16:25:57.378  INFO 10252 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 10252 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 16:25:57.387  INFO 10252 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 16:25:58.352  INFO 10252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:25:58.352  INFO 10252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 16:25:58.368  INFO 10252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2021-01-21 16:25:58.379  INFO 10252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:25:58.380  INFO 10252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 16:25:58.391  INFO 10252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 16:25:58.485  WARN 10252 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 16:25:58.663  INFO 10252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b351cc66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 16:25:58.708  INFO 10252 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 16:25:58.956  INFO 10252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 16:25:58.966  INFO 10252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 16:25:58.967  INFO 10252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 16:25:59.095  INFO 10252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 16:25:59.095  INFO 10252 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1599 ms
+2021-01-21 16:25:59.637  INFO 10252 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 16:25:59.728  INFO 10252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 16:25:59.818  WARN 10252 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 16:26:00.121  INFO 10252 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 16:26:00.142  INFO 10252 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 16:26:00.173  INFO 10252 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 16:26:00.677  INFO 10252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 16:26:00.681  INFO 10252 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 3.731 seconds (JVM running for 5.861)
+2021-01-21 16:26:06.914  INFO 10252 --- [https-jsse-nio-443-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 16:26:06.915  INFO 10252 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 16:26:06.923  INFO 10252 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-01-21 16:27:07.444  INFO 8344 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 8344 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 16:27:07.450  INFO 8344 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 16:27:08.321  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:27:08.322  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 16:27:08.338  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2021-01-21 16:27:08.349  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:27:08.350  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 16:27:08.360  INFO 8344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 16:27:08.458  WARN 8344 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 16:27:08.618  INFO 8344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$80eba21b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 16:27:08.664  INFO 8344 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 16:27:08.906  INFO 8344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 16:27:08.915  INFO 8344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 16:27:08.915  INFO 8344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 16:27:09.041  INFO 8344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 16:27:09.041  INFO 8344 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1531 ms
+2021-01-21 16:27:09.549  INFO 8344 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 16:27:09.644  INFO 8344 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 16:27:09.737  WARN 8344 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 16:27:09.977  INFO 8344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 16:27:09.990  INFO 8344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 16:27:10.012  INFO 8344 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 16:27:10.497  INFO 8344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 16:27:10.502  INFO 8344 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 3.488 seconds (JVM running for 5.567)
+2021-01-21 16:27:18.784  INFO 8344 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 16:27:18.786  INFO 8344 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 16:27:18.796  INFO 8344 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-01-21 16:32:52.894  INFO 7376 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 7376 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 16:32:52.897  INFO 7376 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 16:32:53.866  INFO 7376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:32:53.866  INFO 7376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 16:32:53.886  INFO 7376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 JDBC repository interfaces.
+2021-01-21 16:32:53.898  INFO 7376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:32:53.899  INFO 7376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 16:32:53.910  INFO 7376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 16:32:54.047  WARN 7376 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 16:32:54.241  INFO 7376 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4d2d1a63] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 16:32:54.290  INFO 7376 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 16:32:54.566  INFO 7376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 16:32:54.577  INFO 7376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 16:32:54.577  INFO 7376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 16:32:54.742  INFO 7376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 16:32:54.742  INFO 7376 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1801 ms
+2021-01-21 16:32:55.283  INFO 7376 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 16:32:55.381  INFO 7376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 16:32:55.478  WARN 7376 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 16:32:55.780  INFO 7376 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 16:32:55.797  INFO 7376 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 16:32:55.826  INFO 7376 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 16:32:56.354  INFO 7376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 16:32:56.359  INFO 7376 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 4.003 seconds (JVM running for 6.593)
+2021-01-21 16:33:48.703  INFO 10592 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 10592 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 16:33:48.706  INFO 10592 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 16:33:49.632  INFO 10592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:33:49.632  INFO 10592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 16:33:49.651  INFO 10592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 JDBC repository interfaces.
+2021-01-21 16:33:49.665  INFO 10592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:33:49.666  INFO 10592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 16:33:49.677  INFO 10592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 16:33:49.785  WARN 10592 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 16:33:49.959  INFO 10592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$fca0023a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 16:33:50.010  INFO 10592 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 16:33:50.270  INFO 10592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 16:33:50.279  INFO 10592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 16:33:50.281  INFO 10592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 16:33:50.430  INFO 10592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 16:33:50.431  INFO 10592 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1682 ms
+2021-01-21 16:33:51.015  INFO 10592 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 16:33:51.126  INFO 10592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 16:33:51.239  WARN 10592 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 16:33:51.503  INFO 10592 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 16:33:51.517  INFO 10592 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 16:33:51.542  INFO 10592 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 16:33:52.034  INFO 10592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 16:33:52.038  INFO 10592 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 3.853 seconds (JVM running for 6.247)
+2021-01-21 16:33:59.096  INFO 10592 --- [https-jsse-nio-443-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 16:33:59.096  INFO 10592 --- [https-jsse-nio-443-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 16:33:59.104  INFO 10592 --- [https-jsse-nio-443-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-01-21 16:38:49.998  INFO 14200 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 14200 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 16:38:50.001  INFO 14200 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 16:38:51.273  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:38:51.273  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 16:38:51.292  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JDBC repository interfaces.
+2021-01-21 16:38:51.306  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:38:51.307  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 16:38:51.318  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 16:38:51.440  WARN 14200 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 16:38:51.681  INFO 14200 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$71926026] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 16:38:51.733  INFO 14200 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 16:38:52.021  INFO 14200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 16:38:52.029  INFO 14200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 16:38:52.029  INFO 14200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 16:38:52.162  INFO 14200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 16:38:52.163  INFO 14200 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2029 ms
+2021-01-21 16:38:52.683  INFO 14200 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 16:38:52.799  INFO 14200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 16:38:52.897  WARN 14200 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 16:38:53.177  INFO 14200 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 16:38:53.191  INFO 14200 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 16:38:53.215  INFO 14200 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 16:38:53.732  INFO 14200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 16:38:53.741  INFO 14200 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 4.344 seconds (JVM running for 6.619)
+2021-01-21 16:39:31.708  INFO 14200 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 16:39:31.709  INFO 14200 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 16:39:31.721  INFO 14200 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-01-21 16:41:34.653  INFO 14000 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 14000 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 16:41:34.657  INFO 14000 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 16:41:35.647  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:41:35.648  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 16:41:35.668  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 JDBC repository interfaces.
+2021-01-21 16:41:35.681  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:41:35.681  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 16:41:35.692  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 16:41:35.785  WARN 14000 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 16:41:35.956  INFO 14000 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6ae0c607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 16:41:36.004  INFO 14000 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 16:41:36.246  INFO 14000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 16:41:36.256  INFO 14000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 16:41:36.256  INFO 14000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 16:41:36.384  INFO 14000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 16:41:36.384  INFO 14000 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1649 ms
+2021-01-21 16:41:36.877  INFO 14000 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 16:41:36.974  INFO 14000 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 16:41:37.063  WARN 14000 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 16:41:37.319  INFO 14000 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 16:41:37.333  INFO 14000 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 16:41:37.355  INFO 14000 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 16:41:37.853  INFO 14000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 16:41:37.857  INFO 14000 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 3.707 seconds (JVM running for 6.036)
+2021-01-21 16:41:41.843  INFO 14000 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 16:41:41.843  INFO 14000 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 16:41:41.853  INFO 14000 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-01-21 16:41:42.325 ERROR 14000 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.cqyt.controller.app.serviceController.code2Id(serviceController.java:31) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-01-21 16:42:14.826  INFO 15568 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 15568 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 16:42:14.828  INFO 15568 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 16:42:15.790  INFO 15568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:42:15.791  INFO 15568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 16:42:15.808  INFO 15568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JDBC repository interfaces.
+2021-01-21 16:42:15.823  INFO 15568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:42:15.824  INFO 15568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 16:42:15.837  INFO 15568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2021-01-21 16:42:15.951  WARN 15568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 16:42:16.141  INFO 15568 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$336ffec9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 16:42:16.193  INFO 15568 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 16:42:16.442  INFO 15568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 16:42:16.451  INFO 15568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 16:42:16.451  INFO 15568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 16:42:16.578  INFO 15568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 16:42:16.579  INFO 15568 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1698 ms
+2021-01-21 16:42:17.059  INFO 15568 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 16:42:17.150  INFO 15568 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 16:42:17.238  WARN 15568 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 16:42:17.486  INFO 15568 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 16:42:17.502  INFO 15568 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 16:42:17.528  INFO 15568 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 16:42:18.048  INFO 15568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 16:42:18.052  INFO 15568 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 3.621 seconds (JVM running for 5.955)
+2021-01-21 16:42:22.261  INFO 15568 --- [https-jsse-nio-443-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 16:42:22.262  INFO 15568 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 16:42:22.273  INFO 15568 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-01-21 16:42:51.520  INFO 14632 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 14632 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 16:42:51.524  INFO 14632 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 16:42:52.439  INFO 14632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:42:52.439  INFO 14632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 16:42:52.456  INFO 14632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2021-01-21 16:42:52.467  INFO 14632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 16:42:52.468  INFO 14632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 16:42:52.478  INFO 14632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 16:42:52.588  WARN 14632 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 16:42:52.759  INFO 14632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e914ad58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 16:42:52.810  INFO 14632 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 16:42:53.076  INFO 14632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 16:42:53.086  INFO 14632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 16:42:53.086  INFO 14632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 16:42:53.217  INFO 14632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 16:42:53.217  INFO 14632 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1646 ms
+2021-01-21 16:42:53.697  INFO 14632 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 16:42:53.786  INFO 14632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 16:42:53.876  WARN 14632 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 16:42:54.115  INFO 14632 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 16:42:54.128  INFO 14632 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 16:42:54.152  INFO 14632 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 16:42:54.613  INFO 14632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 16:42:54.617  INFO 14632 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 3.525 seconds (JVM running for 5.734)
+2021-01-21 16:43:00.572  INFO 14632 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 16:43:00.573  INFO 14632 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 16:43:00.584  INFO 14632 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-01-21 17:26:29.192  INFO 6988 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 6988 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 17:26:29.195  INFO 6988 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 17:26:32.762  INFO 6988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:26:32.765  INFO 6988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 17:26:32.791  INFO 6988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 JDBC repository interfaces.
+2021-01-21 17:26:32.802  INFO 6988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:26:32.803  INFO 6988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 17:26:32.814  INFO 6988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 17:26:32.902  WARN 6988 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 17:26:33.067  INFO 6988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f6d93545] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:26:33.112  INFO 6988 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 17:26:33.359  INFO 6988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 17:26:33.369  INFO 6988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 17:26:33.370  INFO 6988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 17:26:33.506  INFO 6988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 17:26:33.506  INFO 6988 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4255 ms
+2021-01-21 17:26:34.000  INFO 6988 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 17:26:34.097  INFO 6988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 17:26:34.188  WARN 6988 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 17:26:34.466  INFO 6988 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 17:26:34.482  INFO 6988 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 17:26:34.551  INFO 6988 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 17:26:35.017  INFO 6988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 17:26:35.021  INFO 6988 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 6.506 seconds (JVM running for 8.92)
+2021-01-21 17:26:57.892  INFO 6988 --- [https-jsse-nio-443-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 17:26:57.892  INFO 6988 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 17:26:57.899  INFO 6988 --- [https-jsse-nio-443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-01-21 17:28:07.200  INFO 16588 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 16588 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 17:28:07.204  INFO 16588 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 17:28:08.143  INFO 16588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:28:08.143  INFO 16588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 17:28:08.160  INFO 16588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2021-01-21 17:28:08.171  INFO 16588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:28:08.172  INFO 16588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 17:28:08.183  INFO 16588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 17:28:08.274  WARN 16588 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 17:28:08.440  INFO 16588 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$66cb4e45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:28:08.486  INFO 16588 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 17:28:08.744  INFO 16588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 17:28:08.752  INFO 16588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 17:28:08.753  INFO 16588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 17:28:08.890  INFO 16588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 17:28:08.890  INFO 16588 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1640 ms
+2021-01-21 17:28:09.382  INFO 16588 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 17:28:09.472  INFO 16588 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 17:28:09.560  WARN 16588 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 17:28:09.793  INFO 16588 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 17:28:09.805  INFO 16588 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 17:28:09.826  INFO 16588 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 17:28:10.283  INFO 16588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 17:28:10.287  INFO 16588 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 3.533 seconds (JVM running for 5.668)
+2021-01-21 17:28:15.288  INFO 16588 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 17:28:15.289  INFO 16588 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 17:28:15.298  INFO 16588 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-01-21 17:28:47.612  INFO 16744 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 16744 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 17:28:47.615  INFO 16744 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 17:28:48.635  INFO 16744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:28:48.635  INFO 16744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 17:28:48.652  INFO 16744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2021-01-21 17:28:48.663  INFO 16744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:28:48.664  INFO 16744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 17:28:48.676  INFO 16744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 17:28:48.779  WARN 16744 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 17:28:48.933  INFO 16744 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c03bbae5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:28:48.977  INFO 16744 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 17:28:49.216  INFO 16744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 17:28:49.224  INFO 16744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 17:28:49.225  INFO 16744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 17:28:49.354  INFO 16744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 17:28:49.354  INFO 16744 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1597 ms
+2021-01-21 17:28:49.846  INFO 16744 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 17:28:49.935  INFO 16744 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 17:28:50.024  WARN 16744 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 17:28:50.264  INFO 16744 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 17:28:50.277  INFO 16744 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 17:28:50.299  INFO 16744 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 17:28:50.773  INFO 16744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 17:28:50.778  INFO 16744 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 3.604 seconds (JVM running for 5.669)
+2021-01-21 17:28:57.672  INFO 16744 --- [https-jsse-nio-443-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 17:28:57.672  INFO 16744 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 17:28:57.688  INFO 16744 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2021-01-21 17:28:58.231 ERROR 16744 --- [https-jsse-nio-443-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123) ~[shiro-all-1.4.1.jar:na]
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:626) ~[shiro-all-1.4.1.jar:na]
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56) ~[shiro-all-1.4.1.jar:na]
+	at com.cqyt.controller.LoginController.code2Id(LoginController.java:31) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-01-21 17:30:32.782  INFO 3860 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 3860 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 17:30:32.786  INFO 3860 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 17:30:33.769  INFO 3860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:30:33.770  INFO 3860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 17:30:33.789  INFO 3860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JDBC repository interfaces.
+2021-01-21 17:30:33.810  INFO 3860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:30:33.812  INFO 3860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 17:30:33.824  INFO 3860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 17:30:33.930  WARN 3860 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 17:30:34.101  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4dc7315] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.144  INFO 3860 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 17:30:34.179  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.cqyt.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$5165729d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.186  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getSessionIdGenerator' of type [org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.229  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getSessionDAO' of type [org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.233  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getExecutorServiceSessionValidationScheduler' of type [org.apache.shiro.session.mgt.ExecutorServiceSessionValidationScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.236  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [com.cqyt.config.shiro.PowerShiroSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.277  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.280  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.282  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.284  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.291  INFO 3860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:30:34.541  INFO 3860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 17:30:34.550  INFO 3860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 17:30:34.551  INFO 3860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 17:30:34.686  INFO 3860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 17:30:34.687  INFO 3860 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1838 ms
+2021-01-21 17:30:35.266  INFO 3860 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 17:30:35.382  INFO 3860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 17:30:35.512  WARN 3860 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 17:30:35.797  INFO 3860 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 17:30:35.810  INFO 3860 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 17:30:35.835  INFO 3860 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 17:30:36.280  INFO 3860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 17:30:36.284  INFO 3860 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 4.117 seconds (JVM running for 6.361)
+2021-01-21 17:30:46.477  INFO 3860 --- [https-jsse-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 17:30:46.477  INFO 3860 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 17:30:46.488  INFO 3860 --- [https-jsse-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-01-21 17:30:46.559  INFO 3860 --- [https-jsse-nio-443-exec-4] a.s.s.m.AbstractValidatingSessionManager : Enabling session validation scheduler...
+2021-01-21 17:30:47.884  INFO 3860 --- [https-jsse-nio-443-exec-4] o.a.shiro.cache.ehcache.EhCacheManager   : Using existing EHCache named [shiro-activeSessionCache]
+2021-01-21 17:33:42.695  INFO 5312 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 5312 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 17:33:42.697  INFO 5312 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 17:33:43.604  INFO 5312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:33:43.605  INFO 5312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 17:33:43.624  INFO 5312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JDBC repository interfaces.
+2021-01-21 17:33:43.636  INFO 5312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:33:43.639  INFO 5312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 17:33:43.652  INFO 5312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 17:33:43.766  WARN 5312 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 17:33:44.090  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f19dabd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.141  INFO 5312 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 17:33:44.178  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.cqyt.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$3e26ab61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.186  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getSessionIdGenerator' of type [org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.209  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getSessionDAO' of type [org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.227  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getExecutorServiceSessionValidationScheduler' of type [org.apache.shiro.session.mgt.ExecutorServiceSessionValidationScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.233  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [com.cqyt.config.shiro.PowerShiroSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.289  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.292  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.296  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.308  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.318  INFO 5312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:33:44.614  INFO 5312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 17:33:44.623  INFO 5312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 17:33:44.624  INFO 5312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 17:33:44.764  INFO 5312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 17:33:44.764  INFO 5312 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2026 ms
+2021-01-21 17:33:45.357  INFO 5312 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 17:33:45.477  INFO 5312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 17:33:45.599  WARN 5312 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 17:33:45.900  INFO 5312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 17:33:45.913  INFO 5312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 17:33:45.935  INFO 5312 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 17:33:46.395  INFO 5312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 17:33:46.398  INFO 5312 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 4.258 seconds (JVM running for 7.388)
+2021-01-21 17:34:00.355  INFO 5312 --- [https-jsse-nio-443-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 17:34:00.356  INFO 5312 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 17:34:00.362  INFO 5312 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-01-21 17:34:00.376  INFO 5312 --- [https-jsse-nio-443-exec-3] a.s.s.m.AbstractValidatingSessionManager : Enabling session validation scheduler...
+2021-01-21 17:34:00.455  INFO 5312 --- [https-jsse-nio-443-exec-3] o.a.shiro.cache.ehcache.EhCacheManager   : Using existing EHCache named [shiro-activeSessionCache]
+2021-01-21 17:34:45.526  INFO 10092 --- [main] com.cqyt.SchoolCommodityApplication      : Starting SchoolCommodityApplication on HIWQ-VKBSW3 with PID 10092 (D:\ide\no-preson-shop\target\classes started by Hs in D:\ide\no-preson-shop)
+2021-01-21 17:34:45.529  INFO 10092 --- [main] com.cqyt.SchoolCommodityApplication      : No active profile set, falling back to default profiles: default
+2021-01-21 17:34:46.460  INFO 10092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:34:46.461  INFO 10092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-21 17:34:46.477  INFO 10092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2021-01-21 17:34:46.489  INFO 10092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-21 17:34:46.489  INFO 10092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-21 17:34:46.499  INFO 10092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-01-21 17:34:46.606  WARN 10092 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cqyt]' package. Please check your configuration.
+2021-01-21 17:34:46.765  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$93f419fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.811  INFO 10092 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-21 17:34:46.845  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.cqyt.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$e07d1983] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.852  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getSessionIdGenerator' of type [org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.855  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getSessionDAO' of type [org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.859  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getExecutorServiceSessionValidationScheduler' of type [org.apache.shiro.session.mgt.ExecutorServiceSessionValidationScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.862  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [com.cqyt.config.shiro.PowerShiroSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.896  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.899  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.902  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.904  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:46.910  INFO 10092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 17:34:47.153  INFO 10092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2021-01-21 17:34:47.162  INFO 10092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-21 17:34:47.162  INFO 10092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-01-21 17:34:47.279  INFO 10092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-21 17:34:47.279  INFO 10092 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1660 ms
+2021-01-21 17:34:47.885  INFO 10092 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-21 17:34:48.003  INFO 10092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 17:34:48.129  WARN 10092 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-21 17:34:48.422  INFO 10092 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-01-21 17:34:48.435  INFO 10092 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-21 17:34:48.457  INFO 10092 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-01-21 17:34:48.931  INFO 10092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2021-01-21 17:34:48.935  INFO 10092 --- [main] com.cqyt.SchoolCommodityApplication      : Started SchoolCommodityApplication in 3.835 seconds (JVM running for 5.91)
+2021-01-21 17:34:57.048  INFO 10092 --- [https-jsse-nio-443-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 17:34:57.049  INFO 10092 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 17:34:57.058  INFO 10092 --- [https-jsse-nio-443-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-01-21 17:34:57.072  INFO 10092 --- [https-jsse-nio-443-exec-3] a.s.s.m.AbstractValidatingSessionManager : Enabling session validation scheduler...
+2021-01-21 17:34:57.150  INFO 10092 --- [https-jsse-nio-443-exec-3] o.a.shiro.cache.ehcache.EhCacheManager   : Using existing EHCache named [shiro-activeSessionCache]
